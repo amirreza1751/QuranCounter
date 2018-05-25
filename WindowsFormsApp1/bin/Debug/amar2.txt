@@ -1,0 +1,16 @@
+﻿public static int GetCharacterCount(string filePath, Encoding encoding, ref byte[] buffer)
+{
+    int fileLength;
+    using (var fstream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.Read))
+    {
+        fileLength = (int)fstream.Length;
+        // Expand the buffer if necessary
+        if (buffer == null || buffer.Length < fileLength)
+            buffer = new byte[fstream.Length];
+
+        if (fstream.Read(buffer, 0, fileLength) != fileLength)
+            throw new EndOfStreamException("Couldn't read all bytes from the file.");
+    }
+
+    return encoding.GetCharCount(buffer, 0, fileLength);
+} 

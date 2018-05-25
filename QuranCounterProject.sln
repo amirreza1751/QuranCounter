@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuranCounterProject", "WindowsFormsApp1\QuranCounterProject.csproj", "{7D16FC64-E0FE-42C3-A506-2D73BD19A888}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "QuranCounterSetup", "QuranCounterSetup\QuranCounterSetup.vdproj", "{D5CA1460-6E9B-4CBE-9B9B-C432E92704B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D16FC64-E0FE-42C3-A506-2D73BD19A888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D16FC64-E0FE-42C3-A506-2D73BD19A888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D16FC64-E0FE-42C3-A506-2D73BD19A888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D16FC64-E0FE-42C3-A506-2D73BD19A888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5CA1460-6E9B-4CBE-9B9B-C432E92704B4}.Debug|Any CPU.ActiveCfg = Debug
+		{D5CA1460-6E9B-4CBE-9B9B-C432E92704B4}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
